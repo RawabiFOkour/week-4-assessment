@@ -19,10 +19,13 @@
 
     .a {
       background: #0d9;
+      grid-area: 2/2/3/3;
+      
     }
 
     .b {
       background: #d90;
+      grid-area: 1/1/2/2;
     }
 
     .c {
@@ -45,7 +48,11 @@
     /* Your code starts here */
     /* CODE AREA */
 
-    .container {}
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+    }
 
     .a {}
 
